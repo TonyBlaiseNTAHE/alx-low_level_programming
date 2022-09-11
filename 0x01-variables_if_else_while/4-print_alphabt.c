@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-int i;
-for (i = 97; i < 123; i++)
+char ch;
+for (ch = 'a'; ch <= 'z'; i++)
 {
-if (i != 101 && i ! = 113)
+if (ch != 'e' && ch ! = 'q')
 {
-putchar(i);
+putchar(ch);
 }
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
