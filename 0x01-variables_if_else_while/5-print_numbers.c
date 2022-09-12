@@ -13,9 +13,9 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-for (i = 0; i < 10; i++)
+for (n = 0; n < 10; n++)
 {
-printf("%d", i);
+printf("%d", n);
 }
 return (0);
 }
