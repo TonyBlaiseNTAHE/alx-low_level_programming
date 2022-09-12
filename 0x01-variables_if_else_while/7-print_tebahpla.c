@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<sdtlib.h>
+#include<stdlib.h>
 #include<time.h>
 
 /**
@@ -11,9 +11,9 @@ int main(void)
 {
 int i;	
 char alp[26] = "abcdefghijklmnopqrtuvwxyz";
-for (i = 26; i > 1; i--)
+for (i = 26; i >= 0; i--)
 {
-putchar(i);
+putchar(alp[i]);
 putchar('\n');
 }
 return (0);
