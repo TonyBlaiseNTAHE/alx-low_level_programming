@@ -9,13 +9,12 @@
  */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-for (i = 0; i < 26; i++)
+char ch;
+for (ch = 'a'; i < 'z'; ch++)
 {
-if (i != 5 && i != 17)
+if (ch != 'e' && ch != 'q')
 {
-putchar(alp[i]);
+putchar(ch);
 }
 }
 putchar('\n');
