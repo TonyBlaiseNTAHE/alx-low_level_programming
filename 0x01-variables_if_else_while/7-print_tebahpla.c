@@ -14,7 +14,6 @@ char alp[26] = "abcdefghijklmnopqrtuvwxyz";
 for (i = 26; i >= 0; i--)
 {
 putchar(alp[i]);
-putchar('\n');
 }
 return (0);
 }
