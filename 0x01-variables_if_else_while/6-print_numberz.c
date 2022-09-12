@@ -9,10 +9,8 @@
  */
 int main(void)
 {
-int n, i;
+int  i;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
 for (i = 0; i < 10; i++)
 {
 putchar(i);
