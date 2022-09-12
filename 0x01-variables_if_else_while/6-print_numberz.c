@@ -15,7 +15,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 for (n = 0; n < 10; n++)
 {
-putchar("%d", n);
+putchar("%i", n);
 }
 putchar("\n");
 return (0);
