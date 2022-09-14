@@ -4,10 +4,9 @@
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-char c;
-int i;
+char c, i;
 
 for (i = 0; i < 9; i++)
 {
@@ -17,5 +16,4 @@ _putchar(c);
 }
 _putchar('\n');
 }
-return (0);
 }
