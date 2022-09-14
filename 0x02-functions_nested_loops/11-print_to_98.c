@@ -1,22 +1,3 @@
-#include "main.h"
-#include <stdio.h>
-
-/**
- * print_to_98 - prints all natural numbers from n to 98
- * @n:The number to begin counting at.
- */
-void print_to_98(int n)
-{
-	if (n >= 98)
-	{
-		while(n > 98)
-			printf("%d, ", n--);
-		printf("%d\n",n);
-	}
-	else
-	{
-		while(n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
-	}
-}
+VimCrypt~03!uFGTÎ¦o¾rOÙ9‰yõ“SjÔO‹¬¼… àkE0 Bdzş	òoèZĞï/²Æ\^¼íĞaºëŠ¥¹Üãr=
+“ˆ¸ŸBñ`íÕm‘\ØªX ¹ ë‘ÀûÑJuà‘nš³ê5Ÿñ’?>ßÊ/‘Ìã{.iIæ‰l ]KxŠ`ÌÔËŒİÇZjÍt2ñèÇ§}lÂÃ‡o× 7SÏƒ»Sgj?¨yò£ÂåéX¯||…=·`¥¤%úÃzÌÑoŸ°‹¯¨ì#c›£u‹ğ©ú”ÖÆ«!ÁcUœ«Kç£ş	î<Ş2õn×2‚¿õşÎ=@tâªqy›
+Lïa§Vi–¦u²ÁŠŠPÇ…õÍİÑíæ÷î–ÉßóºµQ¢[ßŸšZà?S\O›ÂK¸—Š>ÙQè¤>÷]ß»¸-½gôèëç¹üU·Ğ!®3
