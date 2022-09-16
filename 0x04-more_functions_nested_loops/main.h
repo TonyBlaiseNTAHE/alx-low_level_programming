@@ -1,16 +1,22 @@
-#ifndef MAIN_H_INCLUDED
-#define MAIN_H_INCLUDED
-int _putchar(char c);
-void print_alphabet(void);
-void print_alphabet_x10(void);
-int _islower(int c);
-int _isalpha(int c);
-int print_sign(int n);
-int _abs(int n);
-int print_last_digit(int n);
-void jack_bauer(void);
-void times_table(void);
-int add(int a, int b);
-void print_to_98(int n);
-void print_times_table(int n);
-#endif 
+#ifndef _MAIN_H
+#define _MAIN_H_
+
+/**
+ * main - header file for prototypes
+ * void prototypes (void)
+ * int prototypes (int)
+ */
+void print_number(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(void);
+void print_diagonal(void);
+void print_square(void);
+void print_triangle(void);
+void print_number(int n);
+int _putchar(char);
+void _isupper(int c);
+void _isdigit(int c);
+void mul(int a, int b);
+
+#endif /* MAIN_h */
