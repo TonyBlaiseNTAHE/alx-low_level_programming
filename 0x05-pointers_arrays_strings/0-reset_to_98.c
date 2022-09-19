@@ -1,11 +1,2 @@
-#include<main.h>
-
-/**
- * void reset_to_98 - Takes a pointer to an int as parameter and updates the value it points to 98
- * @n - input integer
- * Return 0
- */
-void reset_to_98(int *n)
-{
-	*n = 98;
-}
+VimCrypt~03!å…Q¶y/ ÚC´òkŠŒH&…yT(‡Ş²„š9€ Ÿª0ôuck4æ¹Ôœa5í0GÜëŠÄcšãê»µx¢³.lÜâÔ\p^¦1KşLVÙŠ¥:{Ò…ÖKJÇVÛ3GÖï­V}ÔqßªÄÿQ“œİG
+MĞô¨›‚NíÆëètræ¢¿ ¿Á5éíb.q£Õ=;ŸÊu¸çì“¶FtV¢h!}aeÕş˜@¶¼]‹ZÔ(2¿Æ<O±‘ƒÈK k‹!"h
