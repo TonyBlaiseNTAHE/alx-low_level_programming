@@ -1,4 +1,21 @@
 #include "main.h"
+
+/**
+ * _strlen - returns the lenght of a string
+ * @s: string
+ * Return:returns length as integer;
+ */
+
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+
+	return (len);
+}
+
 /**
  * cap_string - capitalizes all words of a string
  * @s: input string.
@@ -7,24 +24,27 @@
 
 char *cap_string(char *s)
 {
-	int count = 0, i;
-	int sep_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int index = 0;
 
-	if (*(s + count) >= 97 && *(s + count) <= 122)
-		*(s + count) = *(s + count) - 32;
-	count++;
-	while (*(s + count) != '\0')
+	while (str[++index])
 	{
-		for (i = 0; i < 13; i++)
-		{
-			if (*(s + count) == sep_words[i])
-			{
-				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1) <= 122))
-				 *(s + (count + 1)) = *(s + (count + 1)) - 32;
-						break;
-						}
-						}
-						count++;
-						}
-						return (s);
-						}
+		while (!(str[index] >= 'a') && (str[index] <= 'z'))
+			index++;
+
+		if (str[index - 1] == ' ' ||
+				str[index - 1] == '\t' ||
+				str[index - 1] == '\n' ||
+				str[index - 1] == ',' ||
+				str[index - 1] == ';' ||
+				str[index - 1] == '.' ||
+				str[index - 1] == '!' ||
+				str[index - 1] == '?' ||
+				str[index - 1] == '"' ||
+				str[index - 1] == '(' ||
+				str[index - 1] == ')' ||
+				str[index - 1] == '{' ||
+				str[index - 1] == '}')
+			str[index] -= 32;
+	}
+	return (str);
+}
