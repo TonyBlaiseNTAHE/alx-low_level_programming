@@ -1,4 +1,4 @@
-#include "lists.h"
+#include <stdio.h>
 
 /**
  * bmain - function excuted before main
