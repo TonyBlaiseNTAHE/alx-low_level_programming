@@ -8,11 +8,6 @@
  */
 int main(void)
 {
-	unsigned int n;
-
-	n = binary_to_uint("1");
-	printf("%u\n", n);
-	n =  binary_to_uint("110010");
-	printf("%u\n", n);
+	print_binary(2);
 	return (0);
 }
