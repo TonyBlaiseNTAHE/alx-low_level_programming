@@ -9,20 +9,11 @@
 size_t listint_len(const listint_t *h)
 {
 	size_t count = 0;
-        listint_t *ptr = NULL;
 
-	if (h == NULL)
+	while (h != NULL)
 	{
-		printf("List is empty.");
-	}
-	h = ptr;
-
-	while (ptr != NULL)
-	{
+		h = h->next;
 		count++;
-		ptr = ptr->next;
 	}
-	
-	printf("%ld", count);
-	return (0);
+	return (count);
 }
