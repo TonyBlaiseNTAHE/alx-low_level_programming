@@ -7,7 +7,7 @@
  * @n: integer
  * return: Address of new element. NULL if its fails
  */
-listint_t *add_nodeint(listint_t **head, const int n);
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
 
@@ -18,6 +18,6 @@ listint_t *add_nodeint(listint_t **head, const int n);
 
 	new->n = n;
 	new->next = *head;
-	*head = ptr;
-	return (head);
+	*head = new;
+	return (new);
 }
