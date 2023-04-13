@@ -8,22 +8,17 @@
  */
 int main(void)
 {
-	long long l = 612852475243;
-	long long mx = 0;
+	long int l = 612852475243;
 	int i;
 
-	for (i = 2; i <= sqrt(l); i++)
+	for (i = 2; i <= l; i++)
 	{
-		while (l % i == 0)
+		if (l % i == 0)
 		{
-			mx = i;
 			l /= i;
+			i--;
 		}
 	}
-	if (l > 1)
-	{
-		mx = l;
-	}
-	printf("%lld", mx);
+	printf("%ld", i);
 	return (0);
 }
