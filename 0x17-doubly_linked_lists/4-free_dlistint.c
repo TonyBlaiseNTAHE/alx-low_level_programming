@@ -7,12 +7,8 @@
  */
 void free_dlistint(dlistint_t *head)
 {
-	dlistint_t *current, *next;
+	dlistint_t *current = NULL, *next = NULL;
 
-	if (head == NULL)
-	{
-		printf("List is empty");
-	}
 	current = head;
 	while (current != NULL)
 	{
@@ -20,5 +16,4 @@ void free_dlistint(dlistint_t *head)
 		free(current);
 		current = next;
 	}
-	free(head);
 }
