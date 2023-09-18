@@ -37,10 +37,21 @@ int mul(int a, int b)
  */
 int mod(int a, int b)
 {
+	int result;
+
 	if (b == 0)
+	{
 		return (-1);
+	}
 	else
-		return (a % b);
+	{
+		result = a % b;
+		if ((result < 0 && b > 0) || (result > 0 && b < 0))
+		{
+			result += b;
+		}
+		return (result);
+	}
 }
 /**
  * div - divides two number.
