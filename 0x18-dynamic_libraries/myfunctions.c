@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * add - adds two number.
  * @a: first number.
@@ -38,7 +37,10 @@ int mul(int a, int b)
  */
 int mod(int a, int b)
 {
-	return (a % b);
+	if (b == 0)
+		return (-1);
+	else
+		return (a % b);
 }
 /**
  * div - divides two number.
