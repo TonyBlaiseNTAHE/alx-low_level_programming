@@ -1,68 +1,55 @@
 #include "myfunctions.h"
 /**
- * add - adds two number.
- * @a: first number.
- * @b: second number.
- * Return: the sum.
+ *add - function that add two integer
+ *@a: takes value of a
+ *@b: takes the value of b
+ *Return: return the sum of two integer
  */
 int add(int a, int b)
 {
 	return (a + b);
 }
+
 /**
- * sub - return the differnce between two number.
- * @a: first number.
- * @b: second number.
- * Return: the difference.
+ *sub - function that subtwo integer
+ *@a: takes value of a
+ *@b: takes the value of b
+ *Return: return the subof two integer
  */
 int sub(int a, int b)
 {
 	return (a - b);
 }
+
 /**
- * mul - multiplies two numbers.
- * @a: first number.
- * @b: second number.
- * Return: the multiplication of two number.
+ *mul - function that multwo integer
+ *@a: takes value of a
+ *@b: takes the value of b
+ *Return: return the mul of two integer
  */
 int mul(int a, int b)
 {
 	return (a * b);
 }
-/**
- * mod - returns the modular between two number.
- * @a: first number.
- * @b: second number.
- * Return: the modular.
- */
-int mod(int a, int b)
-{
-	int result;
 
-	if (b == 0)
-	{
-		return (-1);
-	}
-	else
-	{
-		result = a % b;
-		if ((result < 0 && b > 0) || (result > 0 && b < 0))
-		{
-			result += b;
-		}
-		return (result);
-	}
-}
 /**
- * div - divides two number.
- * @a: the first number.
- * @b: the second number.
- * Return: the division.
+ *div - function that div two integer
+ *@a: takes value of a
+ *@b: takes the value of b
+ *Return: return the div of two integer
  */
 int div(int a, int b)
 {
-	if (b == 0)
-		return (-1);
-	else
-		return (a % b);
+	return (a / b);
+}
+
+/**
+ *mod - function that mod two integer
+ *@a: takes value of a
+ *@b: takes the value of b
+ *Return: return the mod of two integer
+ */
+int mod(int a, int b)
+{
+	return (a % b);
 }
