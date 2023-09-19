@@ -2,7 +2,7 @@
 #define _MAIN_H
 #include <stddef.h>
 #include <limits.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
