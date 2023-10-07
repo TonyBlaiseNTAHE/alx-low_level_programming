@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef HASH_TABLES_H
+#define HASH_TABLES_H
 
 /**
  * struct hash_node_s - Node of a hash table
