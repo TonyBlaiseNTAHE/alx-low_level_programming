@@ -10,12 +10,11 @@
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new_node;
-	unsigned long int index, i;
+	unsigned long int index;
 
 	if (ht == NULL || key == NULL || value == NULL)
 		return (0);
-	i = hash_djb2((const unsigned char *)key);
-	index = i % ht->size;
+	index = key_index((const unsigned char *)key, ht->size);
 	new_node = malloc(sizeof(hash_node_t));
 
 	if (new_node == NULL)
