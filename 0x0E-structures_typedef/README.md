@@ -1,3 +1,19 @@
-VimCrypt~03!=∆ÑªåJ‚q˛÷±ˇy¥]Ãà’≈r† ¬ºÓØπ¶òÙ>•iF_ù˙±∏∞õ‘ëäØÿh,g)Õn«¢¨=±ó&ËFÓ;–7eˇΩaŒnh†ÌhzÛí©∑Í—Òâ’W]˝:xô˘—g~¶ﬂ4ä5ÒÆ‰ˇhEœn_›@˛ÿÙRÚq2©`†8[ú¬a@Ôªò—;ødãéXAçª1œD"
-áÁÔ?n⁄Î¢∫Ód˘"d´–¥GÄÛN≤¿L;≠aó˜IS˛ÆÓx(~¿ﬁ'.8±\KôG‰4ïﬁôπªdöÉq‰@eJ1ƒé{W{h¥î1P«NÓq¯Èã—≥TKb!nÉ¥R“m÷o°“Ì™Ú&˘ •G ‡ó§ò*ŒKNR5Ák„ﬂ∆bS¢ 0‘Aƒ6iG‡æˇπıÓnì∏ƒü˚6˘!!e÷î(ó\Å1Å¥i*êŒ†‹ñ∞aã€î€_‡_wñHŸiEüäeœt∞_§˝ô=ù8–íˇM≠Ñ>=Å?:Oˆì-WÈÆ(Í
-ö`n#aôØ5fpnu¶ˆ
+# Structures, typedef
+Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about structures and `typedef` in **C language**.
+
+## Technologies
+* C files are compiled using `gcc 4.8.4`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 14.04 LTS
+
+## Files
+All of the following files are programs written in C:
+
+| Filename         | Description                                      |
+| -----------------|--------------------------------------------------|
+| `dog.h`          | Header file that contains a `struct dog`         |
+| `1-init_dog.c`   | Initialize a variable of type `struct dog`       |
+| `2-print_dog.c`  | Prints a `struct dog`                            |
+| `3-islower.c`    | Checks for lowercase character                   |
+| `4-new_dog.c`    | Creates a new dog                                |
+| `5-free_dog.c`   | Frees a dog                                      |
