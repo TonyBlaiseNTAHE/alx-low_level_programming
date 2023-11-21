@@ -2,7 +2,7 @@
 
 ## Topics covered:
 
-This repository covers fundamental concepts and advanced topics in C programming, providing a comprehensive guide for low-level programming that i have covered during my `FULL-STACK ALX Program``.
+This repository covers fundamental concepts and advanced topics in C programming, providing a comprehensive guide for low-level programming that i have covered during my `FULL-STACK ALX Program`.
 
 ### 0x00. [C - Hello, World](https://github.com/TonyBlaiseNTAHE/alx-low_level_programming/tree/master/0x00-hello_world)
 - Introduction to C programming.
