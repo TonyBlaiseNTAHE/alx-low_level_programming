@@ -1,3 +1,4 @@
+![C Logo](https://github.com/TonyBlaiseNTAHE/alx-low_level_programming/blob/master/icons8-c-programming-480.png)
 # Low Level Programming with C
 
 ## Topics covered:
